@@ -16,7 +16,7 @@ class VenueInfo:
     city: str
     address: str | None = None
 
-
+# TODO: 補上地址, 刪除已歇業地點
 # fmt: off
 KNOWN_VENUES: dict[str, VenueInfo] = {
     # 台北

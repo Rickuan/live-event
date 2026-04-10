@@ -34,7 +34,7 @@ LISTING_URL = f"{BASE_URL}/events"
 _DONATION_KEYWORDS = ("樂捐", "自由樂捐", "donation", "pay what you want")
 _FREE_KEYWORDS = ("免費", "free", "0元", "0 元")
 
-
+# TODO: 把這個function移動到service共用的base class
 def _detect_price_type(price_text: str, min_price: int | None) -> PriceType:
     lower = price_text.lower()
     if any(kw in lower for kw in _DONATION_KEYWORDS):
