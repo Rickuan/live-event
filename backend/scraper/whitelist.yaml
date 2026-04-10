@@ -1,0 +1,54 @@
+# 白名單關鍵字：活動標題或表演者名稱包含以下任一關鍵字才會寫入 DB
+# 不區分大小寫，逐字比對
+
+keywords:
+  # 英文曲風
+  - indie
+  - punk
+  - jazz
+  - house
+  - techno
+  - electronic
+  - electro
+  - metal
+  - rock
+  - bass
+  - drum
+  - lo-fi
+  - lofi
+  - ambient
+  - noise
+  - folk
+  - rave
+  - dnb
+  - drum and bass
+  - experimental
+  - post-rock
+  - shoegaze
+  - post rock
+  - math rock
+  - hardcore
+  - hip hop
+  - hip-hop
+  - r&b
+  - soul
+  - funk
+  - grunge
+  - alternative
+  - garage
+  - psychedelic
+
+  # 中文曲風 / 場景
+  - 獨立
+  - 爵士
+  - 電子
+  - 搖滾
+  - 金屬
+  - 龐克
+  - 民謠
+  - 噪音
+  - 實驗
+  - 樂團
+  - 音樂節
+  - live house
+  - livehouse

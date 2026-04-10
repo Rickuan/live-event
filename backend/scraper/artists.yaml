@@ -1,0 +1,60 @@
+# 已知表演者名單，用於從 FANSI GO 活動標題中識別表演者
+# 新增方式：在下方加入名稱並附上更新日期註解，重啟爬蟲即生效
+# 比對規則：不分大小寫，從 title 切割後的每個 segment 中尋找
+
+artists:
+  # ── 新增於 2026-04-09 ──
+  - 阿飛西雅 APHASIA
+  - 阿飛西雅
+  - APHASIA
+  - Triple Deer
+  - 茄子蛋
+  - 草東沒有派對
+  - 滅火器
+  - 拍謝少年
+  - 椅子樂團
+  - 盧廣仲
+  - 魏如萱
+  - 宇宙人
+  - 9m88
+  - Leo王
+  - 告五人
+  - 老王樂隊
+  - 神棍樂團
+  - 甜約翰
+  - 貝貝
+  - Sunset Rollercoaster
+  - 落日飛車
+  - 壞特
+  - Walllen
+  - 柏柏與壞朋友
+  - 旺福
+  - 閃靈
+  - Chthonic
+  - 圖騰
+  - 王榆鈞
+  - 林頤原
+  - Euan
+  - 小田
+  - 比才
+  - 熊仔
+  - 蛋堡
+  - Soft Lipa
+  - 顏社
+  - Msaki
+  - Gummy B
+  - DJ Didilong
+  - Shy Kidx
+  - C.F.Y.
+  - Yeti Out
+  - 33EMYBW
+  - Deerhoof
+  - 夾子電動大樂隊
+  - 李權哲
+  - 施人誠
+  - 謝震廷
+  - 黃玠
+  - 陳珊妮
+  - 雷擎
+
+# TODO: 之後要處理重複artist的問題
