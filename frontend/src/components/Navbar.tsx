@@ -1,12 +1,20 @@
 import { useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
+import { useNavigate, useLocation } from 'react-router-dom'
 
 export default function Navbar() {
   const navigate = useNavigate()
+  const location = useLocation()
   const clickCount = useRef(0)
   const timer = useRef<ReturnType<typeof setTimeout>>()
 
+  const isAdminPage = location.pathname.startsWith('/admin')
+  const isLoginPage = location.pathname === '/admin/login'
+
   function handleLogoClick() {
+    if (isAdminPage || isLoginPage) {
+      navigate('/')
+      return
+    }
     clickCount.current += 1
     clearTimeout(timer.current)
     timer.current = setTimeout(() => {
